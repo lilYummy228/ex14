@@ -10,7 +10,22 @@ namespace ex14
     {
         static void Main(string[] args)
         {
+            string password = "qeqe0808";
+            int triesCount = 3;
+            for (int i = 0; i < triesCount; i++)
+            {
+                Console.Write("Введите пароль: ");
 
+                if (password == Console.ReadLine())
+                {
+                    Console.WriteLine("Секретное сообщение");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Неверный пароль");
+                }
+            }
         }
     }
 }
