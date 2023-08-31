@@ -12,6 +12,7 @@ namespace ex14
         {
             string password = "qeqe0808";
             int triesCount = 3;
+
             for (int i = 0; i < triesCount; i++)
             {
                 Console.Write("Введите пароль: ");
